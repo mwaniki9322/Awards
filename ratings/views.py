@@ -31,7 +31,7 @@ class MerchList(APIView):
 
 class MerchList2(APIView):
     def get(self, request, format=None):
-        all_merch = Project.objects.all()
+        all_merch = Project.objects.all(
         serializers = MerchSerializer1(all_merch, many=True)
         return Response(serializers.data)
 

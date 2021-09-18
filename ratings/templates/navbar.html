@@ -1,0 +1,58 @@
+
+
+ <nav class="navbar  navbar-expand-lg navbar-dark"  style="background-color: rgb(17, 16, 16);">
+	 <img src="https://www.flaticon.com/svg/static/icons/svg/419/419952.svg" alt="" style="height: 40px;">
+	<a class="navbar-brand text-warning"  href="/" style="padding-top: 1%; font-size: 20px;" >Awwards</a>
+	<button class="navbar-toggler" style="color: white;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon" style="color: white;"></span>
+	</button>
+	<a class="nav-link border border-warning" href="{% url 'new_post' %}"  style="border: blanchedalmond; margin-right: 2%;">Submit your site</a>
+	  
+  
+	<div class="collapse navbar-collapse rest"  id="navbarSupportedContent" >
+	  <ul class="navbar-nav mr-auto">
+		<li class="nav-item active">
+		  <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+		</li>
+		
+		<li class="nav-item dropdown">
+		  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			{{ user.profile.user }}
+		  </a>
+		  <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
+			<a class="dropdown-item" href="{% url 'profile' %}" style="color: black !important;">Profile</a>
+			<!-- <a class="dropdown-item" href="#" style="color: black !important;">Another action</a> -->
+			<div class="dropdown-divider"></div>
+			<a class="dropdown-item" href="/logout"style="color: black !important;">Logout</a>
+		  </div>
+		</li>
+
+		<!--
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  API
+			</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown" >
+			  <a class="dropdown-item" href="/api/merch1" style="color: black !important;">Projects API</a>
+			  <a class="dropdown-item" href="/api/merch" style="color: black !important;">Profiles API</a>
+			  <div class="dropdown-divider"></div>
+			  
+			</div>
+		  </li>
+		-->
+		  
+	
+		
+		  
+	  </ul>
+	 
+		
+			
+	  
+	  
+	  <form class="form-inline my-2 my-lg-0 search" action="{% url 'search_results' %}" >
+		<input class="form-control mr-sm-2" type="search" placeholder="Search for a project... " aria-label="Search" style="font-size: 15px;" name="projects">
+		<button class="btn btn-outline-warning my-2 my-sm-0" type="submit" style="font-size: 15px;">Search</button>
+	  </form>
+	</div>
+  </nav>

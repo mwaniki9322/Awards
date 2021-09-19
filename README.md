@@ -1,20 +1,17 @@
-# Awards
-#### The application allows a user to post a project he/she has created and get it reviewed by his/her peers, 27/11/2020.
-#### By Felista Kiriinya
-
-## Description
-
-![landing](./static/images/landing.png)
-![rating](./static/images/rating.png)
+# InstaPics
+#### This is an instagram clone,it allows users to upload pctures and also view pictures from other people.
+#### By Dennis Mwaniki
 
 
-## Live link
-Visit the application on https://fel-awards.herokuapp.com/.
+## Application Features
+FOR ADMIN:
+* Add Images
+* Add Name
+* Add Description
+* Comment on Images
+* Search for a profile
 
-## Figma Link
-This is the [figma](https://www.figma.com/file/rfJq82UvKCokjbBvQSkcPB/Awards?node-id=0%3A1) link to my design.
-
-## Development
+## Setup Proces
 To make advancements/modifications, follow these steps:
 
 - Fork the repository
@@ -28,17 +25,35 @@ To make advancements/modifications, follow these steps:
 ## Technologies Used
 Technologies used to develop this application:
 
-1. Python v3.8
-2. Django 3.1.3
+1. Python v3.9
+2. Django 3.2
 3. Django-Bootstrap
 4. HTML 
 5. CSS
 
 
-## Support and contact details
+## Behaviour Driven Development(BDD)
+### 1. Displays Landing Page
+* INPUT: Choose Page
+* OUTPUT: Page Chosen.
 
-Should you be unable to access the website, have any recommendations and/or questions, feel free to email me:[felkiriinya@gmail.com](mailto:felkiriinya@gmail.com)
+### 2. Search Image
+* INPUT: Keyname
+* OUTPUT:Search Results. 
 
-## [License](https://github.com/felkiriinya/Awards/blob/main/LICENSE)
+### 3. View Image Details
+* INPUT: Click Details
+* OUTPUT:Image Details
 
-Copyright (c) 2020 [Felista Kiriinya](https://github.com/felkiriinya)
+
+
+## To Do
+* Add custom validations to the form
+
+### Known bugs
+* No bags reported.Raise a bug fix [here](https://github.com/mwaniki9322/instagram.git)
+
+## Contact
+* If you wish to reach out incase of any issue you can pull request
+
+### LICENSE

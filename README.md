@@ -36,7 +36,7 @@ Technologies used to develop this application:
 * OUTPUT: Page Chosen.
 
 ### 2. Search Image
-* INPUT: projectname
+* INPUT: projectnam
 * OUTPUT:Search Results. 
 
 ### 3. View project Details

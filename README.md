@@ -1,15 +1,13 @@
-# InstaPics
-#### This is an instagram clone,it allows users to upload pctures and also view pictures from other people.
+# Awards
+#### The application allows a user to post a project he/she has created and get it reviewed by his/her peers.
 #### By Dennis Mwaniki
 
 
 ## Application Features
 FOR ADMIN:
-* Add Images
-* Add Name
-* Add Description
-* Comment on Images
-* Search for a profile
+* Add Projects
+* Add Rate projects
+* Add Links
 
 ## Setup Proces
 To make advancements/modifications, follow these steps:
@@ -38,12 +36,12 @@ Technologies used to develop this application:
 * OUTPUT: Page Chosen.
 
 ### 2. Search Image
-* INPUT: Keyname
+* INPUT: projectname
 * OUTPUT:Search Results. 
 
-### 3. View Image Details
+### 3. View project Details
 * INPUT: Click Details
-* OUTPUT:Image Details
+* OUTPUT:project Details
 
 
 

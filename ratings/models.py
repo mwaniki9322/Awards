@@ -50,7 +50,7 @@ class Profile(models.Model):
         self.bio = new_bio
         self.save()
 
-    def update_image(self, user_id, neimage):
+    def update_image(self, user_id, new_image):
         user = User.objects.get(id = user_id)
         self.photo = new_image 
         self.save()              

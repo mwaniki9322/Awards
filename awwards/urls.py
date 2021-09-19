@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 
-from django.urls import path
+from django.urls import pa
 from django.conf.urls import url,include
 from django.contrib.auth import views
 from django_registration.backends.one_step.views import RegistrationView

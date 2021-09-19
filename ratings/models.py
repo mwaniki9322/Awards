@@ -46,7 +46,7 @@ class Profile(models.Model):
     def delete_profile(self):
         self.delete()
 
-    def update_bio(self,new_bio):
+    def update_bio(selnew_bio):
         self.bio = new_bio
         self.save()
 
